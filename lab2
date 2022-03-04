@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+inline float mul(float x, float y)
+{
+    return (x*y);
+}
+inline float add(float x,float y)
+{
+return(x+y);}
+int main()
+{
+float x=12.34;
+float y=9.82;
+
+cout << " multiply = " << mul(x,y);
+cout <<"addition = "<< add(x,y);
+
+return 0;
+   }
